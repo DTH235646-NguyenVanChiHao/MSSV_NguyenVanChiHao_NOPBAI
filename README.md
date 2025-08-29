@@ -16,3 +16,25 @@ Hàm `print()` được dùng để hiển thị thông tin ra màn hình. Đây
 ### Cú pháp:
 ```python
 print("Nội dung cần in")
+
+
+## Gán biến:
+```python
+name = "Python"
+year = 2025
+
+## In biến:
+```python
+print("Ngôn ngữ:", name)
+print("Năm hiện tại:", year)
+
+## Tính toán đơn giản:
+```python
+a = 10
+b = 5
+print("Tổng:", a + b)
+print("Hiệu:", a - b)
+print("Tích:", a * b)
+print("Thương:", a / b)
+
+
