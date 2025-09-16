@@ -3,7 +3,12 @@ def ToiUuChuoiDanhTu(s):
     words = s.strip().split()
     
     # Bước 2: viết thường toàn bộ rồi viết hoa chữ cái đầu
-    words = [w.lower().capitalize() for w in words]
+
+    for i in range(len(words)):
+        words[i] = words[i].lower().capitalize()
+        
+    # Cách khác dùng list comprehension:    
+    # words = [w.lower().capitalize() for w in words]
     
     # Bước 3: ghép lại thành chuỗi tối ưu
     return " ".join(words)
