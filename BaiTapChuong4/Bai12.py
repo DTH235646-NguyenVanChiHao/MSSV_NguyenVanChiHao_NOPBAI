@@ -5,6 +5,7 @@ def oscillate(start, count):
         yield -k
 
 def main():
+    print(list(oscillate(-3, 5)))
     for n in oscillate(-3, 5):
         print(n, end=' ')
     print()
